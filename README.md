@@ -9,7 +9,7 @@ For the [example](/src/test/scala/sandbox/pokemon), a selection of Pokémon are 
 
 An implementation is given using [inheritance based polymorphism](/src/test/scala/sandbox/pokemon/inheritance), as well as one using [instance based polymorphism](/src/test/scala/sandbox/pokemon/instances). 
 
-While the approaches are slightly different, both implementations are [able to provide the same API](/src/test/scala/sandbox/pokemon/test).
+While the approaches are slightly different, both implementations are [able to provide the same API](/src/test/scala/sandbox/pokemon/Test.scala).
 
 In the [inheritance based polymorphism](/src/test/scala/sandbox/pokemon/inheritance) example, code tends to be organized by domain objects. 
 While in the [instance based polymorphism](/src/test/scala/sandbox/pokemon/instances) example, code is organized by behavior that it provides. 
