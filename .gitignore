@@ -1,0 +1,15 @@
+# Trifling Targets
+target/
+
+# Loudmouth logs
+logs
+
+# Extras Ensime
+.ensime
+.ensime_cache/
+
+# IntelliJ Junk
+.ensime
+.ensime_cache/
+
+**/*.iml
