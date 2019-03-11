@@ -5,6 +5,8 @@ A project to illustrate the differences between a Inheritance-Based Polymorphism
 
 ## Examples
 
+![PokemonImage](/asset/PokemonImage.png)
+
 For the [example](/src/test/scala/sandbox/pokemon), a selection of Pokémon are modeled with the goal of providing a handful of behaviors, `Moves`, `PrimaryType`, an optional `SecondaryType`, and a way to indicate evolutionary trees.
 
 An implementation is given using [inheritance based polymorphism](/src/test/scala/sandbox/pokemon/inheritance), as well as one using [instance based polymorphism](/src/test/scala/sandbox/pokemon/instances). 
