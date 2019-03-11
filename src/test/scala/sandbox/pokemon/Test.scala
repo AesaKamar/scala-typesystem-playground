@@ -1,6 +1,9 @@
 package sandbox.pokemon
 import org.scalatest.FreeSpec
 
+/**
+* This test is meant to show that Instanced polymorphism and
+  */
 class Test extends FreeSpec {
 
   "Instanced Polymorphism" in {
@@ -34,12 +37,12 @@ class Test extends FreeSpec {
         |========================
       """.stripMargin)
 
-    println((new Blastoise {}).primaryType)
-    println((new Raichu {}).primaryType)
-    println((new Raichu {}).secondaryType)
-    println((new Wartortle {}).moves)
-    println((new Blastoise {}).moves)
-    println((new Blastoise {}).getClass.getSuperclass.getTypeName)
+    println((Blastoise : Pokémon).primaryType)
+    println((Raichu : Pokémon).primaryType)
+    println((Raichu : Pokémon).secondaryType)
+    println((Wartortle : Pokémon).moves)
+    println((Blastoise : Pokémon).moves)
+    println((Blastoise : Pokémon).getClass.getSuperclass.getTypeName)
     succeed
   }
 }

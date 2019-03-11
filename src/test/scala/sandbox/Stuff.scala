@@ -80,4 +80,3 @@ object Option {
   class Some[A](a: A) extends Option[A]
 }
 
-class Judgemental extends FreeSpec {}
