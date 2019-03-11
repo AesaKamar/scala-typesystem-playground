@@ -9,7 +9,6 @@ logs
 .ensime_cache/
 
 # IntelliJ Junk
-.ensime
-.ensime_cache/
+.idea/
 
 **/*.iml
